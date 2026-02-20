@@ -1764,12 +1764,11 @@ const Hosts = () => {
 																<div className="flex items-center justify-between gap-2">
 																	{visibleColumns.some(
 																		(col) => col.id === "os",
-																	) && (
+																	) &&
 																		renderOsWithVersionTooltip(
 																			host,
 																			"text-secondary-700 dark:text-secondary-300",
-																		)
-																	)}
+																		)}
 																	<div className="flex flex-wrap items-center gap-2">
 																		{visibleColumns.some(
 																			(col) => col.id === "status",
