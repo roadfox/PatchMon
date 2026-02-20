@@ -942,9 +942,9 @@ const Hosts = () => {
 
 				<div
 					role="tooltip"
-					className="pointer-events-none absolute left-1/2 top-full z-30 mt-2 w-max max-w-sm -translate-x-1/2 rounded-lg border border-secondary-200 bg-white px-3 py-2 text-left text-xs text-secondary-700 shadow-lg opacity-0 transition-opacity duration-150 group-hover:opacity-100 dark:border-secondary-600 dark:bg-secondary-800 dark:text-secondary-200"
+					className="pointer-events-none absolute left-1/2 top-full z-30 mt-2 w-max max-w-sm -translate-x-1/2 rounded-lg border border-secondary-200 bg-secondary-50 px-3 py-2 text-left text-xs text-secondary-700 shadow-lg opacity-0 transition-opacity duration-150 group-hover:opacity-100 dark:border-secondary-600 dark:bg-secondary-700 dark:text-secondary-200"
 				>
-					<div className="absolute -top-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-l border-t border-secondary-200 bg-white dark:border-secondary-600 dark:bg-secondary-800" />
+					<div className="absolute -top-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-l border-t border-secondary-200 bg-secondary-50 dark:border-secondary-600 dark:bg-secondary-700" />
 					<p className="font-medium text-secondary-900 dark:text-white">
 						OS Version
 					</p>
